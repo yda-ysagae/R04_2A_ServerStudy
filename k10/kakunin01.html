@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link{text-decoration:none; color:#009900}
+        a:visited{text-decoration:none; color:#880000} 
+        a:focus{text-decoration:none; color:#f379be} 
+        a:hover{text-decoration:underline; color:#0000cc}
+    </style>
+</head>
+<body>
+
+    <h1>タイトル</h1>
+
+    <form action="#" method="post">
+
+        <div>
+            <p>
+                氏名<br>
+                <input type="text" name="shimei">
+            </p>        
+        </div>
+
+        <div>
+            <p>
+                住所<br>
+                <textarea name="address" rows="10" cols="50"></textarea>
+            </p>
+        </div>
+        
+        <div>
+            <p>
+                カラー<br>
+                <input type="checkbox" name="color" value="red" checked>赤
+                <input type="checkbox" name="color" value="blue">青
+                <input type="checkbox" name="color" value="yellow">黄
+            </p>
+        </div>
+
+        <div>
+            <p>
+                季節<br>
+                <input type="radio" name="season" value="spring" checked>春
+                <input type="radio" name="season" value="summer" checked>夏
+                <input type="radio" name="season" value="autumn">秋
+                <input type="radio" name="season" value="winter">冬
+            </p>
+        </div>
+
+        <div>
+            <p>
+                たべもの<br>
+                <select name="food">
+                    <option value="curry">カレー</option>
+                    <option value="bread" selected>パン</option>
+                    <option value="soup">スープ</option>
+                </select>
+            </p>
+        </div>
+
+        <div class="button_area">
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+
+    <br>
+    <a href="#2">リンク</a>
+    <br>
+</body>
+</html>
