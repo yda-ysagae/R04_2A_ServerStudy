@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* モバイル向け設定(全体) */
+body {
+    background-color:aqua;
+}
+
+/* タブレット向け設定　768px~ */
+@media screen and (min-width:768px) {
+
+    body{
+        background-color: fuchsia;
+    }
+
+}
+
+/* PC向け設定　1024px~ */
+@media screen and (min-width:1024px) {
+
+    body{
+        background-color: gold;
+    }
+}
+
